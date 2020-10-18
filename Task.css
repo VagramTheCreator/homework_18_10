@@ -1,0 +1,105 @@
+body, html{
+	margin: 0;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.header{
+	height: 30em;
+	background-image: url(background.jpeg);
+}
+
+.wrapper{
+	max-width: 100%;
+	margin:0 auto;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu_item_logo{
+	color: orange;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1;
+	display: inline-block;
+	margin-right: 19em;
+}
+
+.menu{
+	width: 100%;
+	text-align: right;
+}
+
+.menu_item{
+	line-height: 1;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+h3{
+	color: white;
+	margin-top: 150px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	background-color: black;
+	font-family: Arial;
+}
+
+hr{
+	color: orange;
+	border:none;
+	height: 2px;
+	background-color: orange;
+}
+
+p{
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+button{
+	background-color: transparent;
+	border-color: orange;
+}
+
+.about{
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 33px;
+	font-family: Arial;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.main{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.headline{
+	color: orange;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Arial;
+}
+
+.row-item{
+	text-align: center;
+	width: 23%;
+	padding: 1%;
+}
+
+
+
+
